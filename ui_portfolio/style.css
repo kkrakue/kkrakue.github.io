@@ -1,0 +1,41 @@
+ body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+text-align: center;
+background-color: #d2c5c5;
+}
+
+header {
+background: #333;
+color: #ffffff;
+padding: 1rem;
+}
+
+.container {
+width: 80%;
+margin: auto;
+padding: 2rem 0;
+}
+
+.projects {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.project-card {
+background: #fff;
+padding: 1rem;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+width: 250px;
+}
+
+footer {
+background: #333;
+color: #fff;
+padding: 1rem;
+margin-top: 2rem;
+}
